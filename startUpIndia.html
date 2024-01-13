@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startup India</title>
+    <script src="./JS/tailwind.js"></script>
+    <script src="./JS/script.js" defer></script>
+    <link rel="shortcut icon" href="./Assets/logo/logo4.svg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link href="./CSS/aos.css" rel="stylesheet">
+    <script src="./JS/aos.js"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=Cedarville+Cursive&family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="loading-page">
+        <div class="z-10 loader flex"></div>
+    </div>
+    <!-- navbar -->
+    <div id="navbar" class="fixed top-0  z-10 bg-white flex justify-between md:justify-start w-full h-[10vh] items-center">
+        <a href="./index.html" class=" flex items-center   md:mx-4 w-3/4 md:w-1/3">
+            <div class="logo mx-2 w-[50px] h-[50px]  md:w-[65px] md:h-[65px]"></div>
+            <div class="font-bold text-[8px] mx-1  md:text-[13px]  ">
+                <div id="logo-name">
+                    RVRJC <br>INNOVATION <br>TECHNOLOGY FOUNDATION
+                </div>
+            </div>
+        </a>
+        <!-- desktop -->
+        <div class="hidden  items-center h-full md:flex flex-row w-1/2 font-semibold  justify-between">
+            <a href="./index.html" class=" c  flex flex-col items-center w-1/6 justify-center hover:font-bold hover:cursor-pointer">
+                HOME
+            </a>
+            <div class="a  h-full  flex w-1/6 relative flex-col justify-center ">
+                <div class="flex c  justify-center hover:font-bold hover:cursor-pointer">
+                    PROGRAMMES
+                </div>
+                <div class="b flex rounded-lg  absolute top-[10vh] w-[200px] p-3 rounded-sm text-md flex-col font-normal bg-white">
+                    <a href="./rjitIncubation.html" class="flex p-1 flex-col hover:cursor-pointer hover:bg-white hover:text-black rounded-sm hover:font-bold">
+                        RJIT Incubation
+                    </a>
+                    <a href="./cyberSpark.html" class="flex p-1 flex-col hover:cursor-pointer hover:bg-white hover:text-black rounded-sm hover:font-bold">
+                        Cyber spark
+                    </a>
+                    <a href="./itKnowledgePark.html" class="flex p-1 flex-col hover:cursor-pointer hover:bg-white hover:text-black rounded-sm hover:font-bold">
+                        IT Knowledge Park
+                    </a>
+                    <a href="./startUpIndia.html"  class="flex p-1 flex-col hover:cursor-pointer hover:bg-white hover:text-black rounded-sm hover:font-bold">
+                        Build India 2023
+                    </a>
+                    <a href="./falcon.html" class="flex p-1 flex-col hover:cursor-pointer hover:bg-white hover:text-black rounded-sm hover:font-bold">
+                        FALCON
+                    </a>
+                </div>
+            </div>
+            <div class="a  h-full  flex w-1/6 relative flex-col justify-center ">
+                <div class="flex  c  justify-center hover:font-bold hover:cursor-pointer">
+                    ABOUT
+                </div>
+                <div class="b flex rounded-lg  absolute top-[10vh] w-[200px] p-3 rounded-sm text-md flex-col font-normal bg-white">
+                    <a href="./aboutRjit.html" class="flex p-1 flex-col hover:cursor-pointer hover:bg-white hover:text-black rounded-sm hover:font-bold">
+                        About RJIT
+                    </a>
+                    <a href="./boardAtDirectors.html" class="flex p-1 flex-col hover:cursor-pointer hover:bg-white hover:text-black rounded-sm hover:font-bold">
+                        Board of Directors
+                    </a>
+                    <a href="./teams.html" class="flex p-1 flex-col hover:cursor-pointer hover:bg-white hover:text-black rounded-sm hover:font-bold">
+                        Team
+                    </a>
+                    <a href="./guideLines.html" class="flex p-1 flex-col hover:cursor-pointer hover:bg-white hover:text-black rounded-sm hover:font-bold">
+                        Guidelines
+                    </a>
+                    <a href="./faq.html" class="flex p-1 flex-col hover:cursor-pointer hover:bg-white hover:text-black rounded-sm hover:font-bold">
+                        FAQ
+                    </a>
+                </div>
+            </div>
+            <div class="a  h-full  flex w-1/6 relative flex-col justify-center ">
+                <div class="flex  c  justify-center hover:font-bold hover:cursor-pointer">
+                    CARRIERS
+                </div>
+                <div class="b flex rounded-lg  absolute top-[10vh] w-[200px] p-3 rounded-sm text-md flex-col font-normal bg-white">
+                    <a href="./carriersAtRjit.html" class="flex p-1 flex-col hover:cursor-pointer hover:bg-white hover:text-black rounded-sm hover:font-bold">
+                        Carriers at RJIT
+                    </a>
+                    <a href="./carriersAtRjitStartUp.html" class="flex p-1 flex-col hover:cursor-pointer  hover:bg-white hover:text-black rounded-sm hover:font-bold">
+                        Carriers at RJIT Startups
+                    </a>
+
+                </div>
+            </div>
+            <a href="./partners.html" class="flex  c  flex-col items-center w-1/6 justify-center hover:font-bold hover:cursor-pointer">
+                PARTNERS
+            </a>
+            <a href="#footer" class="flex c  flex-col items-center w-1/6 justify-center hover:font-bold hover:cursor-pointer">
+                CONNECT
+            </a>
+        </div>
+        <!-- mobile screen -->
+        <div class="md:hidden mx-8 relative">
+            <div class=" flex flex-col text-xl ">
+                <i id="toggle" class="fa-solid fa-bars"></i>
+                <div id="listItems" class="text-xs  flex-col flex absolute bg-white w-[100vw] top-10 p-2 right-[-32px]">
+                    <div class="flex tracking-widest w-full p-2">HOME</div>
+                    <div class="flex  tracking-widest justify-between w-full p-2 border-t-2">
+                        <div class="flex flex-col w-full ">
+                            <div id="about">ABOUT</div>
+                            <div id="aboutItems" class="flex flex-col leading-loose mt-3 w-full ">
+                                <a href="./aboutRjit.html" class="navInnerItems tracking-widest bg-blue-900 text-white rounded-sm w-full px-2 py-1">About RJIT</a>
+                                <a href="./boardAtDirectors.html" class="navInnerItems tracking-widest bg-blue-900 text-white rounded-sm w-full px-2 py-1">Board Of Directors</a>
+                                <a href="./teams.html" class="navInnerItems tracking-widest bg-blue-900 text-white rounded-sm w-full px-2 py-1">Team</a>
+                                <a href="./guideLines.html" class="navInnerItems tracking-widest bg-blue-900 text-white rounded-sm w-full px-2 py-1">Guidelines</a>
+                                <a href="./faq.html" class="navInnerItems tracking-widest bg-blue-900 text-white rounded-sm w-full px-2 py-1">FAQ's</a>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                    <div class="flex tracking-widest justify-between w-full p-2 border-t-2">
+                        <div class="flex flex-col w-full ">
+                            <div id="programmes">PROGRAMMES</div>
+                            <div id="programmesItems" class="flex flex-col leading-loose mt-3 w-full ">
+                                <a href="./rjitIncubation.html" class="navInnerItems tracking-widest bg-blue-900 text-white rounded-sm w-full px-2 py-1">RJIT Incubation</a>
+                                <a href="./cyberSpark.html" class="navInnerItems tracking-widest bg-blue-900 text-white rounded-sm w-full px-2 py-1">Cyber Spark</a>
+                                <a href="./itKnowledgePark.html" class="navInnerItems tracking-widest bg-blue-900 text-white rounded-sm w-full px-2 py-1">IT Knowledge Park</a>
+                                <a href="./startUpIndia.html" class="navInnerItems tracking-widest bg-blue-900 text-white rounded-sm w-full px-2 py-1">Build India 2023</a>
+                                <a href="./falcon.html" class="navInnerItems tracking-widest bg-blue-900 text-white rounded-sm w-full px-2 py-1">FALCON</a>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                    <div class="flex tracking-widest justify-between w-full p-2 border-t-2">
+                        <div class="flex flex-col w-full ">
+                            <div id="carriers">CARRIERS</div>
+                            <div id="carriersItems" class="flex flex-col leading-loose mt-3 w-full ">
+                                <a href="./carriersAtRjit.html" class="navInnerItems tracking-widest bg-blue-900 text-white rounded-sm w-full px-2 py-1">Carriers at RJIT</a>
+                                <a href="./carriersAtRjitStartUp.html" class="navInnerItems tracking-widest bg-blue-900 text-white rounded-sm w-full px-2 py-1">Carriers at RJIT Startups</a>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                    <div class="flex tracking-widest justify-between w-full p-2 border-t-2">
+                        <a href="./partners.html" class="flex">
+                            Partners
+                        </a>
+
+                    </div>
+                    <div class="flex tracking-widest justify-between w-full p-2 border-t-2">
+                        <a href="#footer" class="flex">
+                            CONNECT
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="flex top-[10vh] relative w-full flex-col scroll-bar-remove">
+        
+        <!-- about -->
+        <div class="flex flex-col my-10">
+            <!-- heading -->
+            <div class="font-bold text-center text-5xl ">
+                Startup India Programme
+            </div>
+            
+            <div class="font-normal w-4/5 mx-auto text-justify my-10">
+                Startup India is a flagship initiative launched by the Government of India on 16th January, 2016 to build a strong eco-system for nurturing innovation and startups in the country which will drive economic growth and generate large scale employment opportunities.  The Government through this initiative aims to empower startups to grow through innovation and design.   The Standup India scheme was launched on 5th April, 2016 to facilitate bank loans from Scheduled Commercial Banks (SCBs) between Rs.10 lakh to Rs.1 Crore to at least one Scheduled Caste (SC) or Scheduled Tribe (ST) and one woman per bank branch for setting up a greenfield enterprise in trading, services or manufacturing sector.  The scheme is expected to benefit at least 2.5 lakh borrowers.
+                <br>
+                Each enterprise will provide jobs depending on the nature of its operation.
+                <br>
+                The salient features of Startup India are as follows:
+            </div>
+            <!-- vedio -->
+            <div class="flex my-10 h-[60vh] w-full item-center justify-center">
+                <video class=" w-auto" muted  preload="metadata"  src="Assets/Teaser _ Startup India Innovation Summit 2023.mp4"  autoplay></video>
+            </div>
+            <!-- accordion -->
+            <div class="md:w-2/3 w-5/6 mx-auto bg-white">
+                <div x-data="{ open: true }" class="border-b border-gray-700">
+                    <button @click="open = !open" class="w-full text-left p-4 focus:outline-none hover:bg-gray-900">
+                        Simplification and Handholding
+                    </button>
+                    <div x-show="open" class="p-4">
+                        <ul class="list-disc list-inside">
+                            <li>Simple Compliance Regime for startups based on Self-certification</li>
+                            <li>Launch of Mobile app and Portal for compliance and information exchange</li>
+                            <li>Startup India Hub to handhold startups during various phases of their development</li>
+                            <li>Legal support and fast-tracking patent examination at reduced costs</li>
+                            <li>Relaxed norms of public procurement for startups</li>
+                            <li>Faster exit for startups</li>
+                        </ul>
+                    </div>
+                </div>
+                <div x-data="{ open: false }" class="border-b border-gray-700">
+                    <button @click="open = !open" class="w-full text-left p-4 focus:outline-none hover:bg-gray-900">
+                        Funding support and Incentives
+                    </button>
+                    <div x-show="open" class="p-4">
+                        <ul class="list-disc list-inside">
+                            <li>Providing funding support through a Fund of Funds with a corpus of Rupees 10,000 crore</li>
+                            <li>Credit guarantee fund for startups</li>
+                            <li>Tax exemption on capital gains invested in Fund of Funds</li>
+                            <li>Tax exemption to startups for 3 years</li>
+                        </ul>
+                    </div>
+                </div>
+                <div x-data="{ open: false }" class="border-b border-gray-700">
+                    <button @click="open = !open" class="w-full text-left p-4 focus:outline-none hover:bg-gray-900">
+                        Industry-Academia Partnership and Incubation
+                    </button>
+                    <div x-show="open" class="p-4">
+                        <ul class="list-disc list-inside">
+                            <li>Organizing Startup Fests to showcase innovations and providing collaboration platforms</li>
+                            <li>Launch of Atal Innovation Mission (AIM) with Self –Employment and Talent Utilization (SETU) Program of NITI Aayog</li>
+                            <li>Harnessing private sector expertise for setting up incubators</li>
+                            <li>Setting up of 7 new research parks modeled on the Research Park at IIT Madras</li>
+                            <li>Launching of innovation-focused programs for students</li>
+                            <li>Annual Incubator Grand Challenge to promote good practices among incubators</li>
+                        </ul>
+                    </div>
+                </div>
+                <div x-data="{ open: false }" class="border-b border-gray-700">
+                    <button @click="open = !open" class="w-full text-left p-4 focus:outline-none hover:bg-gray-900">
+                        Credit Guarantee Fund
+                    </button>
+                    <div x-show="open" class="p-4">
+                        <ul class="list-disc list-inside">
+                            <li>From digital/technology sector to a wide array of sectors including agriculture, manufacturing, social sector, healthcare, education, etc.</li>
+                            <li>From existing tier 1 cities to tier 2 and tier 3 cities including semi-urban and rural areas</li>
+                            <li>The progress on the action points of the Startup India Action plan is Annexed</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+         <!-- footer -->
+         <div id="footer" class="flex items-center w-full pl-7 bg-black text-white flex-col ">
+            <div class="flex md:flex-row flex-col items-start my-10 h-full w-full justify-center ">
+                <!-- logo + links -->
+                <div class="flex flex-col my-2 md:flex-row md:w-3/5 justify-around items-center ">
+                    <div class="hidden md:flex flex-col items-center justify-between w-[200px] h-[200px] ">
+                        <div class="logo w-[150px] h-[150px] ">
+
+                        </div>
+                        <div class="font-bold text-center ">
+                            RVRJC Innovation <br> Technology Foundation
+                        </div>
+                    </div>
+
+                    <!-- useful links -->
+                    <div class="flex flex-col ">
+                        <div class="text-xl md:text-2xl text-gray-600 ">
+                            Useful links
+                        </div>
+                        <br>
+                        <div class="text-md md:text-lg ">
+                            <a class="hover:text-blue-400 " target="_blank" href="https://rvrjcce.ac.in/researchActivities.php?menu=col "><i
+                                        class="fa-solid fa-greater-than text-xs "></i>
+                                    &nbsp;&nbsp;Reseach activities</a>
+                        </div>
+                        <div class="text-md md:text-lg ">
+                            <a class="hover:text-blue-400 " target="_blank" href="https://rvrjcce.ac.in/photogallery.php "><i
+                                        class="fa-solid fa-greater-than text-xs "></i>
+                                    &nbsp;&nbsp;Photo Galary</a>
+                        </div>
+                        <div class="text-md md:text-lg ">
+                            <a class="hover:text-blue-400 " target="_blank" href="https://rvrjcce.ac.in/ "><i
+                                        class="fa-solid fa-greater-than text-xs "></i>
+                                    &nbsp;&nbsp;College website</a>
+                        </div>
+                        <div class="text-md md:text-lg ">
+                            <a class="hover:text-blue-400 " target="_blank" href="https://rvrjcce.ac.in/iitb_about.php?menu=iitb "><i
+                                        class="fa-solid fa-greater-than text-xs "></i>
+                                    &nbsp;&nbsp;About</a>
+                        </div>
+                        <div class="text-md md:text-lg ">
+                            <a class="hover:text-blue-400 " target="_blank" href="https://rvrjcce.ac.in/newsletter-committee.php "><i
+                                        class="fa-solid fa-greater-than text-xs "></i>
+                                    &nbsp;&nbsp;News</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- contact details -->
+                <div class="  flex flex-col my-2 md:w-2/5 ">
+                    <div class="text-xl md:text-2xl text-gray-600 ">Contact Us</div>
+                    <br>
+                    <div class= "flex my-2  items-center  justify-start md:w-2/3 ">
+                        <i class="fa-solid  mr-3 fa-location-dot text-red-600 "></i>
+                        <div class="text-left w-full text-md md:text-xl md:w-5/6"> RVR JC College of engineering <br>Chowdavaram</div>
+                    </div>
+                    <div class="flex my-2  items-center justify-start md:w-2/3 ">
+                        <i class="fa-regular  mr-3 fa-envelope text-white-600 "></i>
+                        <div class="text-left w-5/6 text-md md:text-xl ">rvrjc@gmail.com</div>
+                    </div>
+                    <div class="flex my-2 items-center justify-start md:w-2/3 ">
+                        <i class="fa-solid  mr-3 fa-phone text-green-600 "></i>
+                        <div class="text-left w-5/6 text-md md:text-xl ">+91 9876543210</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- socail media links -->
+            <div class="flex justify-around text-2xl w-4/5 md:w-1/4 ">
+                <a href=" https://www.facebook.com/rvrjcce.official/" target="_blank" class="flex p-3 hover:bg-gray-900 hover:transform hover:scale-110 hover:cursor-pointer rounded-full ">
+                    <i class="fa-brands fa-facebook text-blue-800 "></i>
+                </a>
+                <a href=" https://www.linkedin.com/school/r.v.r.-&-j.c.-college-of-engineering/" target="_blank" class="flex p-3 hover:bg-gray-900 hover:transform hover:scale-110 hover:cursor-pointer rounded-full ">
+                    <i class="fa-brands fa-linkedin text-blue-700 "></i>
+                </a>
+                <a href="https://twitter.com/rvrjc_official" target="_blank" class="flex p-3 hover:bg-gray-900 hover:transform hover:scale-110 hover:cursor-pointer rounded-full ">
+                    <i class="fa-brands fa-twitter text-blue-600 "></i>
+                </a>
+                <a href="https://www.instagram.com/rvrjcce.official/" target="_blank" class="flex p-3 hover:bg-gray-900 hover:transform hover:scale-110 hover:cursor-pointer rounded-full ">
+                    <i class="fa-brands fa-instagram text-pink-500 "></i>
+                </a>
+                <a href="https://www.youtube.com/c/RVRJCCollegeofEngineering" target="_blank" class="flex p-3 hover:bg-gray-900 hover:transform hover:scale-110 hover:cursor-pointer rounded-full ">
+                    <i class="fa-brands fa-youtube text-red-900 "></i>
+                </a>
+            </div>
+            <div class="flex text-gray-100 text-center mt-3 pr-7 ">
+                Copyright reserver &copy;2023 RJIT. RVRJC. All Rights received.
+            </div>
+            <i class="hover:text-blue-400 " class="fa-solid fa-greater-than text- "></i> &nbsp;&nbsp;
+        </div>
+        <a href="./newIdea.html" class="bg-[#1e3a8a] drop-shadow-lg text-sm md:text-2xl fixed  text-white py-2 md:py-3 px-4 md:px-5 right-2 md:right-10 bottom-6 z-10 md:animate-bounce   flex justify-center items-center rounded-full">
+            Have an Idea ?
+        </a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
